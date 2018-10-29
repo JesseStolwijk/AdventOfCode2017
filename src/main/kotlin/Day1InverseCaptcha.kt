@@ -1,7 +1,7 @@
 package edu.jesse.adventofcode2017
 
-class Day1InverseCaptcha {
-    fun run(args: Array<String>): String {
+class Day1InverseCaptcha: DailyPuzzle {
+    override fun run(args: Array<String>): String {
         val input = args[0]
         val parsedInput = input.map { it.toNumber() }
         val numbers = parsedInput + parsedInput[0]

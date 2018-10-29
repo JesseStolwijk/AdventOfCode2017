@@ -1,6 +1,7 @@
 package edu.jesse.adventofcode2017
 
 fun main(args: Array<String>) {
-    val result = Day1InverseCaptcha().run(args)
+    val challenge: DailyPuzzle = Day2CorruptionChecksum()
+    val result = challenge.run(args)
     println(result)
 }
